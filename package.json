@@ -1,0 +1,28 @@
+{
+  "name": "threejs-portfolio",
+  "version": "1.0.0",
+  "description": "A modern portfolio website built with Three.js",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy" : "gh-pages -d dist"
+  },
+  "keywords": [
+    "portfolio",
+    "threejs",
+    "webgl",
+    "3d"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "gsap": "^3.12.0",
+    "three": "^0.160.0"
+  }
+}
