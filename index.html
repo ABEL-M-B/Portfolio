@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+  <script type="module" crossorigin src="/assets/index-DAm4s0ga.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-haKxBjf0.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="loader-text">Loading...</div>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-brand">
+            <a href="#home">Your Name</a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home" data-section="home">Home</a></li>
+            <li><a href="#about" data-section="about">About</a></li>
+            <li><a href="#projects" data-section="projects">Projects</a></li>
+            <li><a href="#contact" data-section="contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Three.js Canvas -->
+    <canvas id="webgl"></canvas>
+
+    <!-- Content Sections -->
+    <main class="content">
+        <!-- Home Section -->
+        <section id="home" class="section active">
+            <div class="container">
+                <div class="hero">
+                    <h1 class="hero-title">
+                        <span class="hero-line">Hello, I'm</span>
+                        <span class="hero-line">Abel M B</span>
+                        <span class="hero-line hero-subtitle">Backend Developer</span>
+                    </h1>
+                    <p class="hero-description">
+                        I create immersive digital experiences using cutting-edge web technologies
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary" data-section="projects">View Work</button>
+                        <button class="btn btn-secondary" data-section="contact">Get in Touch</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            Enthusiastic Computer Science undergraduate with a strong foundation in backend development using Python and 
+Node.js. Passionate about building scalable APIs, solving algorithmic problems, and learning from real-world 
+development environments. Eager to contribute to a dynamic team and grow as a backend developer.
+                        </p>
+                        <div class="skills">
+                            <h3>Skills</h3>
+                            <div class="skill-list">
+                                <span class="skill-tag">Node.js</span>
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">Docker</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="section-title">Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card" data-project="0">
+                        <div class="project-image">
+                            <div class="project-overlay">
+                                <h3>Project One</h3>
+                                <p>Interactive 3D experience</p>
+                                <div class="project-links">
+                                    <a href="#" class="project-link">View Live</a>
+                                    <a href="#" class="project-link">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-project="1">
+                        <div class="project-image">
+                            <div class="project-overlay">
+                                <h3>Project Two</h3>
+                                <p>WebGL visualization</p>
+                                <div class="project-links">
+                                    <a href="#" class="project-link">View Live</a>
+                                    <a href="#" class="project-link">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card" data-project="2">
+                        <div class="project-image">
+                            <div class="project-overlay">
+                                <h3>Project Three</h3>
+                                <p>Creative web app</p>
+                                <div class="project-links">
+                                    <a href="#" class="project-link">View Live</a>
+                                    <a href="#" class="project-link">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-text">
+                        <p>
+                            I'm always interested in new opportunities and collaborations. 
+                            Let's create something amazing together!
+                        </p>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <h3>Email</h3>
+                            <a href="abelmbofficial.com">abelmbofficial.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <h3>Social</h3>
+                            <div class="social-links">
+                                <a href="https://github.com/ABEL-M-B">GitHub</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
